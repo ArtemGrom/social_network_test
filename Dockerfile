@@ -1,6 +1,6 @@
 FROM python:latest
 
-WORKDIR /usr/src/social_network_test_2
+WORKDIR /usr/src/
 
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1

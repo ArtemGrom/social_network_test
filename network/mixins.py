@@ -1,7 +1,8 @@
 from rest_framework.decorators import action
 from rest_framework.response import Response
-from .services import add_like, remove_like, get_fans
+
 from .serializers import FanSerializer
+from .services import add_like, get_fans, remove_like
 
 
 class LikedMixin:

@@ -1,8 +1,9 @@
 from django.contrib.auth.models import User
 from rest_framework import serializers
-from . import services as likes_services
 
 from network.models import Post
+
+from . import services as likes_services
 
 
 class PostSerializer(serializers.ModelSerializer):
